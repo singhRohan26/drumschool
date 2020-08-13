@@ -1,0 +1,1 @@
+<?php echo form_dropdown(['name' => 'state', 'id' => 'state', 'class' => 'form-control'], $list, isset($product_detail['state']) ? $product_detail['state'] : ''); ?>
